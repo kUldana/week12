@@ -10,7 +10,7 @@
     foreach ($cars as $car) { 
         echo "<p>" . $car['maker'] . ' ' . $car['model'] . "";
         if (!in_array($car['id'], $basket))
-            echo "<a href = 'task2addtobasket.php/?id=".$car['id']."'> Add to basket</a></p>";
+            echo "<a href = 'task2_2.php/?id=".$car['id']."'> Add to basket</a></p>";
         else
             echo "<span> Already in basket</span></p>";
     }
